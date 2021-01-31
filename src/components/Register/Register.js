@@ -30,7 +30,7 @@ class Register extends Component {
     }
 
     onRegisterSignIn = () => {
-        fetch('http://localhost:3000/register', {
+        fetch('https://young-ocean-75739.herokuapp.com/register', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
